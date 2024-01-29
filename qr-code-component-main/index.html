@@ -14,15 +14,19 @@
 
   .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
+
     body {
       width: 100%;
       background-color: hsl(212, 45%, 89%);
       font-family: 'Outfit', sans-serif;
+      margin: 0;
+      padding: 0;
     }
+
     .container {
-      width: 300px;
-      margin: 100px auto;
-      padding: 10px;
+      width: 20%;
+      margin: 10% auto;
+      padding: 2%;
       border-radius: 10px;
       background-color: hsl(0, 0%, 100%);
     }
@@ -36,9 +40,10 @@
       border-radius: 10px;
     }
 
-    h4 {
+    h2 {
       color: hsl(218, 44%, 22%);
       font-weight: 700;
+      font-size: 1.5rem;
     }
 
     p {
@@ -47,6 +52,28 @@
       margin-top: 0;
       padding: 0px 20px;
       font-weight: 400;
+    }
+
+    @media only screen and (max-width: 375px) {
+      .container {
+        width: 70%;
+        margin: 1rem auto;
+      }
+
+      h2 {
+        font-size: 1.5rem;
+      }
+    }
+
+    @media only screen and (min-width: 376px) and (max-width: 1440px) {
+        .container {
+          width: 50%;
+          margin: 2rem auto;
+        }
+
+        h2 {
+          font-size: 1.5rem;
+      }
     }
   </style>
 </head>
