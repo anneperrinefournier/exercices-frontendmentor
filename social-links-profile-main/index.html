@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Social links profile</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+    .attribution { color: hsl(0, 0%, 100%); font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(75, 94%, 57%); }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      font-size: 14px;
+      margin: 0;
+      padding: 0;
+      background-color: hsl(0, 0%, 8%);
+    }
+    .card {
+      background-color: hsl(0, 0%, 12%);
+      color: hsl(0, 0%, 100%);
+      border-radius: 10px;
+      margin: 50px auto;
+      padding: 20px;
+      text-align: center;
+
+    }
+
+    @media screen and (max-width: 375px) {
+      .card {
+        width: 90%;
+      }
+    }
+
+    @media screen and (min-width: 1440px) {
+      .card {
+        width: 20%;
+      }
+    }
+
+    img {
+      border-radius: 50%;
+      width: 100px;
+      height: 100px;
+      margin: 10px auto;
+    }
+
+    h1 {
+      margin-bottom: 0px;
+      font-weight: 700;
+    }
+
+    h2 {
+      color: hsl(75, 94%, 57%);
+      font-size: 14px;
+      font-weight: 600;
+      margin-top: 10px;
+      margin-bottom: 30px;
+
+    }
+
+    p {
+      font-weight: 400px;
+    }
+
+    .social-links {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      margin: 10px 0;
+      padding: auto 5px;
+      font-weight: 600;
+    }
+
+    .social-links a {
+      background-color: hsl(0, 0%, 20%);
+      color: hsl(0, 0%, 100%);
+      border-radius: 5px;
+      padding: 15px;
+      margin: 8px 0;
+      font-weight: 600;
+      text-decoration: none;
+    }
+
+    .social-links a:hover {
+      background-color: hsl(75, 94%, 57%);
+      color: hsl(0, 0%, 20%);
+    }
+
+    .social-links a:last-child {
+      margin-bottom: 0;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="card">
+    <img src="./assets/images/avatar-jessica.jpeg" alt="Jessica Randall" />
+    <h1>Jessica Randall</h1>
+    <h2>London, United Kingdom</h2>
+    <p>"Front-end developer and avid reader."</p>
+    <div class="social-links">
+      <a href="https://www.frontendmentor.io/profile/anneperrinefournier">Frontend Mentor</a>
+      <a href="https://www.linkedin.com/in/fournierap/">LinkedIn</a>
+      <a href="https://twitter.com/">Twitter</a>
+      <a href="https://github.com/anneperrinefournier">GitHub</a>
+      <a href="https://www.instagram.com/">Instagram</a>
+  </div>
+  </div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Anne-Perrine</a>.
+  </div>
+</body>
+</html>
